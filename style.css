@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.nav-bar-cont {
+    height: 3.5rem;
+    background-color: #30336b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visualize-btn {
+    background-color: #1dd1a1;
+    height: 70%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.indicator-cont {
+    height: 7rem;
+    background-color: lightblue;
+}
+
+.grid-cont {
+    background-color: #d9bebe30;
+    height: calc(100vh - 3.5rem - 7rem);
+}
+
+/* ==================================== */
+/* grid styling */
+.row-cont {
+    height: 1rem;
+    border: 1px solid rgb(175, 216, 248);
+    display: flex;
+}
+
+.col-cont {
+    height: 100%;
+    width: 1rem;
+    border: 1px solid rgb(175, 216, 248);
+}

@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ALGO VISUALIZATION</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <div class="body-cont">
+        <div class="nav-bar-cont">
+            <div class="name-cont" id="proj-name">
+                Pathfinding Visualizer
+            </div>
+            <div class="action-cont">
+                <div class="filter" id="algo-name">Algorithms</div>
+                <div class="filter" id="maze-pattern-name">Mazes & Patterns</div>
+                <div class="filter" id="add-bomb">Add Bomb</div>
+                <div class="filter" id="visualize-btn">Visualize!</div>
+                <div class="filter" id="clear-board">Clear Board</div>
+            </div>
+        </div>
+        <div class="indicator-cont">ind</div>
+        <div class="grid-cont"></div>
+    </div>
+
+    <script src="./grid-cont.js"></script>
+    <script src="./function.js"></script>
 </body>
+
 </html>
